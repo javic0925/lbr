@@ -1,0 +1,38 @@
+.plyr {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .plyr--audio .plyr__controls {
+    width: 100%;
+    height: 100%;
+    background: #20172d;
+    background: var(--plyr-audio-controls-background, #20172d);
+  
+    color: #ffffff;
+    color: var(--plyr-audio-control-color, #ffffff);
+  }
+  
+  .plyr--audio .plyr__control.plyr__tab-focus,
+  .plyr--audio .plyr__control:hover,
+  .plyr--audio .plyr__control[aria-expanded="true"] {
+    background: #785888;
+    background: var(
+      --plyr-audio-control-background-hover,
+      var(--plyr-color-main, var(--plyr-color-main, #785888))
+    );
+    color: #fff;
+    color: var(--plyr-audio-control-color-hover, #fff);
+  }
+  
+  .plyr--full-ui input[type="range"] {
+    color: #785888;
+    color: var(
+      --plyr-range-fill-background,
+      var(--plyr-color-main, var(--plyr-color-main, #785888))
+    );
+  }
+  

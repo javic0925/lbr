@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+    -webkit-tap-highlight-color: transparent !important;
+    outline: none !important;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    overscroll-behavior: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #29273F;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .dark-mode {
+    background-color: #2c333f;
+    color: white;
+  }
+  
+  h1 {
+    font-size: $header1;
+  }
+  
+  li,
+  button,
+  label,
+  input,
+  a,
+  p {
+    font-size: $text;
+  }
+  
+  h2 {
+    font-size: $header2;
+  }
+  
+  h3 {
+    font-size: $header3;
+  }
+  
+  h4,
+  h5 {
+    font-size: $header4;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* 333F71 */
