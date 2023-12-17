@@ -41,6 +41,7 @@ var urlsToCache = [
   "./Styles/style.css",
   "./style.css",
   "./index.html",
+  "https://www3.cbox.ws/box/?boxid=3520595&boxtag=KdKEOM", 
 ];
 
 self.addEventListener('install', function (event) {

@@ -10,13 +10,13 @@
 "orientation": "portrait",
 "icons": [
     {
-        "src": "https://laboomradio.com/Assets/Icons/android-chrome-512x512.png",
+        "src": "https://laboomradio.com/Assets/Icons24k/android-chrome-512x512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
     },
     {
-        "src": "https://laboomradio.com/Assets/Icons/android-chrome-192x192.png",
+        "src": "https://laboomradio.com/Assets/Icons24k/android-chrome-192x192.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
@@ -24,9 +24,9 @@
 ],
 "screenshots": [
     {
-      "src": "https://laboomradio.com/Assets/screenshots/2022-08-14%2018.29.22.jpg",
-      "sizes": "2880x1800",
-      "type": "image/jpg",
+      "src": "https://laboomradio.com/Assets/screenshots/24kSC.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
       "description": "La Boom Home Screen"
     }
   ]

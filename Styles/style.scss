@@ -61,6 +61,7 @@ $gray-text: #2b2b2b;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 
 #dark-mode2{
@@ -122,18 +123,11 @@ ul li {
 }
 
 ul li a img {
-  margin-top: 1rem;
   height: 3rem;
 }
 
 }
-.titles{
-  width: 100%;
-  height: 15%;
-  display: flex;
-  align-items: flex-end;
 
-}
 
 .playerInfo{
   width: 100%;
@@ -171,20 +165,22 @@ ul li a img {
   height: 100%;
   width: 100%;
   @include flex(center, center, column);
+  
 }
 
 .coverart {
   width: 100%;
-  height: 60%;
+  height: 80%;
   @include flex(space-evenly, center, column);
   position: relative;
   gap: 1.5rem;
+  
   }
 
 
 #cover{
-  width: 220px;
-  height: 220px;
+  width: 20rem;
+  height: 20rem;
   border-radius: 100%;
   aspect-ratio: 1/1;
   overflow: hidden;
@@ -273,7 +269,7 @@ box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.3), 0px 0px 0px 20px rgba(255
 
 .bottomMain {
   width: 100%;
-  height: 25%;
+  height: 20%;
   display: flex;
   @include flex(center, flex-start, row);
 }
@@ -283,22 +279,24 @@ box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.3), 0px 0px 0px 20px rgba(255
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .likeC{
   height: 100%;
   width: auto;
 }
 .emptyCell{
-  flex-grow: 3;
+  flex-grow: 2;
+  height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 3rem;
   overflow: hidden;
   position: relative;
 }
 #rbcloud_nowplaying17789{
   position: absolute;
+  top: 2rem;
   width: fit-content;
   transform: translateX(80%);
   animation: text-scroll 15s linear infinite;
@@ -308,6 +306,7 @@ box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.3), 0px 0px 0px 20px rgba(255
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 
@@ -405,7 +404,7 @@ box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.3), 0px 0px 0px 20px rgba(255
   text-align: center;
   color: gray;
 }
-#chatInfo{
+#iframeContainer{
   width: 100%;
   height: 100%;
   font-size: 1.6rem;
@@ -418,11 +417,13 @@ height: 100%;}
 
 
 .active{
-  a{
-    background-color: #33304A;
-    border-radius: 1rem;
-    aspect-ratio: 1/1;
-    padding:0 1rem 0 1rem;}
+  height: 100%;
+  width: auto;
+  box-sizing: border-box;
+  border-top: solid;
+  border-width: thin;
+  border-color: #A29CC0;
+  overflow: hidden;
 }
 
 
